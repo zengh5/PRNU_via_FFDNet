@@ -1,4 +1,4 @@
-# This code is for reproduce our work [1] submitted to WIFS2020
+# This code is to reproduce our work [1] submitted to WIFS2020
 # [1] Kang Deng, Morteza Darvish Morshedi Hosseini, Anjie Peng, Hui Zeng, and Miroslav Goljan*,
 #'Extracting Sensor Pattern Noise for Camera Identification with FFDNet'.
 
