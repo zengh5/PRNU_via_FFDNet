@@ -9,8 +9,8 @@ Image Processing On Line, 9 (2019), pp. 1–25.
 Please also cite the original paper.
 
 # Runtime: 
-  Python 3.6, Pytorch 1.5.0+cu101
-  pywavelets package is needed
+  Python 3.6, Pytorch 1.5.0+cu101  
+  pywavelets package is needed  
   Compatible with both GPU and CPU
 
 # Usage:
