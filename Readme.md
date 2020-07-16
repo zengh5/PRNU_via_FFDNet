@@ -14,7 +14,7 @@ Please also cite the original paper.
   Compatible with both GPU and CPU
 
 # Usage:
-  Run the 'Demo_Fig4.py' to see the camera identification results of the provided images. The demo images are from
-  the DID database: T. Gole and R. Bohme, "Dresden image database for benchmarking digital image forensics" in Proc. ACM Symp. Appl. Comput., 2010, pp. 1584–1590.
+  Run the 'Demo_Fig4.py' to see the camera identification results of the provided images.  
+  The demo images are from the DID database: T. Gole and R. Bohme, "Dresden image database for benchmarking digital image forensics" in Proc. ACM Symp. Appl. Comput., 2010, pp. 1584–1590.  
   You can also change to your own reference fingerprint and images.
 
