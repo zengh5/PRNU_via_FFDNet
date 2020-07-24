@@ -57,7 +57,7 @@ model.load_state_dict(state_dict)
 # Sets the model in evaluation mode (e.g. it removes BN)
 model.eval()
 # Load the fingerprint generated with a set of flat images
-data = loadmat('mat\\FlatFingerprint1.mat')
+data = loadmat('mat'+os.sep+'FlatFingerprint1.mat')
 Fingerprint = data['Fingerprint']
 [M, N] = [Fingerprint.shape[0], Fingerprint.shape[1]]
 up = int(M / 2 - B / 2)
@@ -69,7 +69,7 @@ Fingerprint = Fingerprint[up:down, left:right]
 # If you want save the PCE values, uncomment the corresponding codes
 # matname = 'mat\\FFDNet' + str(Ci) + '.mat'
 # Read the images and do camera identification
-files = "Images\\*.JPG"
+files = "Images"+os.sep+"*.JPG"
 print(files)
 filenames = glob.glob(files)
 num_of_im = min(150, len(filenames))
@@ -99,4 +99,5 @@ for i in range(0, num_of_im):
     # Store the data
     # mdict = {'PCE_FFD': PCE_FFD}
     # savemat(matname, mdict)
+print(PCE_FFD)
 #### The code is for the reproduction of our paper submitted to WIFS2020, by Hui Zeng ####
