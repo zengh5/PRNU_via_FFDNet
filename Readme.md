@@ -1,6 +1,3 @@
-This code is to reproduce our work [1] submitted to WIFS2020  
-[1] Kang Deng, Morteza Darvish Morshedi Hosseini, Anjie Peng, Hui Zeng, and Miroslav Goljan*,
-'Extracting Sensor Pattern Noise for Camera Identification with FFDNet'.
 
 This implementation is based on the public camera identification code of DDE; http://dde.binghamton.edu/download/camera_fingerprint/
 and also the public code of FFDNet with Pytorch: https://doi.org/10.5201/ipol.2019.231
